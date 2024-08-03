@@ -1,0 +1,12 @@
+syntax = "proto3";
+option csharp_namespace = "OrderService.Protos";
+
+message UserBalance
+{
+    int32 userId = 1;
+    int32 TotalPrice = 2;
+}
+message SufficentBalance
+{
+    bool success = 1;
+}

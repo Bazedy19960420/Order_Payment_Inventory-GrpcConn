@@ -1,0 +1,8 @@
+syntax = "proto3";
+option csharp_namespace = "OrderService.Protos";
+import "Protos/Model.proto";
+
+service OrderPaymentService
+{
+    rpc sendPaymentMessage (UserBalance) returns (SufficentBalance);
+}

@@ -1,0 +1,3 @@
+obj\Debug\net8.0\Protos/OrderPaymentService.cs \
+obj\Debug\net8.0\Protos/OrderPaymentServiceGrpc.cs: Protos/Model.proto\
+ Protos/OrderPaymentService.proto

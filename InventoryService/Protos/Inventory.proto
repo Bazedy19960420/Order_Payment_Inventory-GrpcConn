@@ -1,0 +1,21 @@
+syntax = "proto3";
+option csharp_namespace = "OrderService.proto";
+
+service OrderInventoryService
+{
+    rpc sendInventoryMessage (ItemQuantity) returns (IsAvailable);
+}
+message ItemQuantity
+{
+    repeated Item items = 1;
+}
+message Item 
+{
+    int32 itemId = 1;
+    int32 quantity = 2;
+}
+
+message IsAvailable
+{
+    bool success = 1;
+}

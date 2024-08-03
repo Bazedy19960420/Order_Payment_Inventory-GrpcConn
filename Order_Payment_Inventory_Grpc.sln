@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentService", "PaymentService\PaymentService.csproj", "{54149954-E8EF-47ED-9A7F-E1D8DB7785B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderWorker", "OrderWorker\OrderWorker.csproj", "{7A7EE84C-C413-4627-A70A-F904D6E7C459}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryService", "InventoryService\InventoryService.csproj", "{ADF27415-A4DA-4CF0-876C-BC57135B6DBA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54149954-E8EF-47ED-9A7F-E1D8DB7785B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54149954-E8EF-47ED-9A7F-E1D8DB7785B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54149954-E8EF-47ED-9A7F-E1D8DB7785B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54149954-E8EF-47ED-9A7F-E1D8DB7785B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A7EE84C-C413-4627-A70A-F904D6E7C459}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A7EE84C-C413-4627-A70A-F904D6E7C459}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A7EE84C-C413-4627-A70A-F904D6E7C459}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A7EE84C-C413-4627-A70A-F904D6E7C459}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADF27415-A4DA-4CF0-876C-BC57135B6DBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADF27415-A4DA-4CF0-876C-BC57135B6DBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADF27415-A4DA-4CF0-876C-BC57135B6DBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADF27415-A4DA-4CF0-876C-BC57135B6DBA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
